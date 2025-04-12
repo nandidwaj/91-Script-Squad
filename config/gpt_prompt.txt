@@ -1,0 +1,16 @@
+Extract the following fields from the bill text below:
+- Customer Name
+- Invoice Number
+- Invoice Date
+- Total Amount
+
+Return the response in JSON format like:
+{{
+  "customer_name": "",
+  "invoice_number": "",
+  "invoice_date": "",
+  "amount": ""
+}}
+
+Bill Text:
+{text}
